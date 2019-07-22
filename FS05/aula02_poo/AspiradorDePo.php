@@ -11,7 +11,7 @@
         }
 
         public function aspirar(){
-            if(count($this->filtro) < 2){     
+            if($this->ligado && count($this->filtro) < 2){     
                 array_push($this->filtro, "nova sujeira");
                 echo "adicionando sujeira ao filtro";
             } else {
