@@ -41,28 +41,28 @@
 
         public function reproduzir(){
             if($this->ligado && $this->usb){
-                if($this->numeroDeFaixa < 0){
-                    echo "Você está na primeira música da lista";
-                } else if($this->numeroDeFaixa < count($this->usb->listaDeMusicas)){
+                if($this->numeroDeFaixa < count($this->usb->listaDeMusicas)){
                     echo "Tocando : " . $this->usb->listaDeMusicas[$this->numeroDeFaixa];
-                } else {
-                    echo "Você está na última música da lista";
                 }
             }
         }
 
         public function avancarFaixa(){
             if($this->ligado && $this->usb){
-                if($this->numeroDeFaixa < count($this->usb->listaDeMusicas)){
-                    $this->numeroDeFaixa++;
-                } 
+                if($this->numeroDeFaixa < count($this->usb->listaDeMusicas) - 1){
+                   $this->numeroDeFaixa++;
+                } else {
+                    echo "Você está na última música da lista";
+                }
             }
         }
 
         public function voltarFaixa(){
-            if($this->ligado && $this->usb ){
-                if($this->numeroDeFaixa >= 0){
+            if($this->ligado && $this->usb){
+                if($this->numeroDeFaixa > 0){
                     $this->numeroDeFaixa--;
+                } else {
+                    echo "Você está na primeira música da lista";
                 }
             }
         }
