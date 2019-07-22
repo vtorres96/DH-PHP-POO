@@ -2,7 +2,7 @@
     // se torna uma classe abstrata por mudar 
     // o comportamento das classes que irão implementá-la
     abstract class Equipamento {
-        // protegido pois somente a classe modelo e as 
+        // protegido pois somente a classe modelo, e, as 
         // classes que herdam desta classe modelo poderão
         // trabalhar com esta propriedade ligado
         protected $ligado;

@@ -2,7 +2,7 @@
     require_once("Equipamento.php");
     
     class AparelhoDeSom extends Equipamento {
-        // atributos privados pois somente alteraremos as propriedades
+        // atributos estão privados pois somente alteraremos as propriedades
         // volume, usb e numeroDeFaixa 
         // dentro da classe AparelhoDeSom 
         private $volume;
