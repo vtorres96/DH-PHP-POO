@@ -16,11 +16,11 @@
       echo "<p>Som dos répteis</p>";      
     }
 
-    function getcorDeEscama(){
+    function getCorDeEscama(){
       return $this->corDeEscama;
     }
 
-    function setcorDeEscama($corDeEscama){
+    function setCorDeEscama($corDeEscama){
       $this->corDeEscama = $corDeEscama;
     }
   }

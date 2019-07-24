@@ -16,11 +16,11 @@
       echo "<p>Som das aves</p>";      
     }
 
-    function getcorDePenas(){
+    function getCorDePenas(){
       return $this->corDePenas;
     }
 
-    function setcorDePenas($corDePenas){
+    function setCorDePenas($corDePenas){
       $this->corDePenas = $corDePenas;
     }
   }
