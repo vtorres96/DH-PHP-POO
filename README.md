@@ -19,3 +19,11 @@ practices created during object-oriented programming classes
 `class inheritance`
 
 `attribute visibility (public, private, protected)`
+
+## Class 3
+
+`polymorphism`
+
+## Class 3
+
+`interface`
