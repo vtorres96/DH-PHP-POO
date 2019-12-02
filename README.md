@@ -24,6 +24,6 @@ practices created during object-oriented programming classes
 
 `polymorphism`
 
-## Class 3
+## Class 4
 
 `interface`
